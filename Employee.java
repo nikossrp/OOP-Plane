@@ -1,6 +1,6 @@
 
 abstract class Employee {
-	static int flag; //gia na blepoume pote doulepsan kai pote oxi
+	static int flag; //to see whenever employee works
 	String name;
 	Employee(String nam)
 	{
