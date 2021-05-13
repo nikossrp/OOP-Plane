@@ -1,6 +1,4 @@
-# OPP-Plane 
-
-Simulation of an airplane in an object-oriented way
+# OPP-Plane-Simulator
 
 
 # Compile
