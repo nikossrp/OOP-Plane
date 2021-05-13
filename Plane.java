@@ -3,11 +3,11 @@ class Plane extends Object{
 	String desc_plane;
 	String title;
 	int capacity;
-	CargoBay carg; //1 tetioi xwro
-	EquipmentCompartment equip1; //3 tetioi xwroi
+	CargoBay carg; 
+	EquipmentCompartment equip1; //each plane has 3 equipment places
 	EquipmentCompartment equip2;
 	EquipmentCompartment equip3;
-	PassengerCompartment passeng1; // analoga thn capacity (50-50)
+	PassengerCompartment passeng1; 
 	PassengerCompartment passeng2;
 	
 	Plane()
