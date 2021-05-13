@@ -8,7 +8,7 @@
 	}
 	 public String toString()
 	 {
-		 String s = String.valueOf(id++); //conver from int to String
+		 String s = String.valueOf(id++); //convert from int to String
 		 return s;
 	 }
 
