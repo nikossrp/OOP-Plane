@@ -1,6 +1,6 @@
 
 class MaintenanceEmployee extends Employee{
-	private int mp; //how hard the employee worked
+	private int mp; //durability for work
 	
 	MaintenanceEmployee(String nam)
 	{
