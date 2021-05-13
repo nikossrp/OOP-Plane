@@ -1,6 +1,6 @@
 
 class CleaningEmployee extends Employee{
-	private int mp; //to poso exei doulepsei o ergazomenos
+	private int mp; //how much the employee has worked
 	
 	CleaningEmployee(String nam)
 	{
@@ -22,10 +22,10 @@ class CleaningEmployee extends Employee{
 	{
 		if(mp>0){
 		Employee.flag = 1;
-		System.out.println("I am "+name+" and I am working at PassengerCompartment!");
+		System.out.println("I am " + name + " and I am working at PassengerCompartment!");
 		mp--;
 		}
-		else System.out.println(name+" wants rest");
+		else System.out.println(name + " wants rest");
 	}
 	
 	void workOn(EquipmentCompartment e){}
