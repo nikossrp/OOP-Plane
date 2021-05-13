@@ -1,6 +1,3 @@
-# OPP-Plane-Simulator
-
-
 # Compile
  javac Mainclass.java
 
