@@ -1,6 +1,6 @@
 
 class SecurityEmployee extends Employee{
-	private int mp; //to poso exei doulepsei o ergazomenos
+	private int mp; //durability for work
 	
 	SecurityEmployee(String name)
 	{
