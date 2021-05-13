@@ -69,14 +69,14 @@ class Plane extends Object{
 	
 	void report()
 	{
-		if(Employee.flag == 1){ //an to flag einai 1 oi ergazomenoi doulepsan
-		carg.ready_check();
-		equip1.ready_check();
-		equip2.ready_check();
-		equip3.ready_check();
-		passeng1.ready_check();
-		passeng2.ready_check();
-		System.out.println("Plane ready to take off");
+		if(Employee.flag == 1){ //if flag is 1 the employees worked
+			carg.ready_check();
+			equip1.ready_check();
+			equip2.ready_check();
+			equip3.ready_check();
+			passeng1.ready_check();
+			passeng2.ready_check();
+			System.out.println("Plane ready to take off");
 		}else System.out.println("Plane isn't ready yet");
 	}
 	
